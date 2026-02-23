@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>About — Sable Studio</title>
+<meta name="description" content="About Sable Studio."/>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="theme-color" content="#0b0b0c"/>
+<link rel="stylesheet" href="/assets/styles.css"/>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"/>
+
+</head>
+<body>
+<div class="topbar">
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="/index.html" aria-label="Sable Studio home">
+        <span class="brandmark" aria-hidden="true"></span>
+        <span class="brandname">SABLE STUDIO</span>
+      </a>
+
+      <div class="navlinks" aria-label="Primary">
+        <a href="/services.html" data-nav="services">Services</a>
+        <a href="/work.html" data-nav="work">Work</a>
+        <a href="/about.html" data-nav="about">About</a>
+        <a href="/contact.html" data-nav="contact">Contact</a>
+      </div>
+
+      <div class="navcta">
+        <a class="btn ghost" href="/work.html" title="See proof">Case studies</a>
+        <a class="btn primary" href="/contact.html" title="Request a consult">Request a consult</a>
+        <button class="btn burger" data-burger aria-label="Open menu" aria-expanded="false">Menu</button>
+      </div>
+    </div>
+
+    <div data-mobile data-open="false" style="display:none; padding: 0 0 14px;">
+      <div style="display:flex; flex-wrap:wrap; gap:10px;">
+        <a class="btn" href="/services.html" data-nav="services">Services</a>
+        <a class="btn" href="/work.html" data-nav="work">Work</a>
+        <a class="btn" href="/about.html" data-nav="about">About</a>
+        <a class="btn" href="/contact.html" data-nav="contact">Contact</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main>
+  <section class="hero" style="padding-bottom: 22px;">
+    <div class="container">
+      <div class="kicker">About</div>
+      <h1 style="margin-top:10px;">Minimal. Modern. Ruthless about clarity.</h1>
+      <p class="lede">Sable Studio exists to remove the two things that kill premium signal: <b>vagueness</b> and <b>inconsistency</b>.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top: 10px;">
+    <div class="container">
+      <div class="split">
+        <div class="card">
+          <div class="kicker">Point of view</div>
+          <h3 style="margin-top:8px;">Brand is a system.</h3>
+          <p style="margin-top:10px;">A logo isn’t a brand. A website isn’t a brand. A brand is the set of decisions that make buyers feel safe: what you do, why you’re credible, and what happens next.</p>
+          <hr class="sep"/>
+          <p><b>Luxury is restraint.</b> Fewer words. Cleaner choices. Stronger proof.</p>
+        </div>
+
+        <div class="card">
+          <div class="kicker">How we work</div>
+          <h3 style="margin-top:8px;">Sprints, not endless retainers.</h3>
+          <p style="margin-top:10px;">If you want a premium signal, you need decisions — not “more content.” We move fast, cut noise, and ship a coherent presence you can maintain.</p>
+          <div class="meta" style="margin-top:14px;">
+            <span class="pill">Strategy</span><span class="pill">Copy</span><span class="pill">Design</span><span class="pill">Build</span>
+          </div>
+          <div class="note" style="margin-top:14px;">
+            <b>Reality check:</b> If your delivery is weak, branding won’t save you. If your delivery is strong, branding will compound it.
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:18px;" class="ctaBand">
+        <div>
+          <div class="kicker">Next step</div>
+          <h3 style="margin-top:10px;">Request a consult.</h3>
+          <p>Share your current site, what you sell, and who buys. I’ll respond with fit + recommended sprint.</p>
+        </div>
+        <div style="display:flex; gap:12px; flex-wrap:wrap;">
+          <a class="btn primary" href="/contact.html">Request a consult</a>
+          <a class="btn" href="/services.html">View services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<div class="footer">
+  <div class="container">
+    <div class="footerGrid">
+      <div>
+        <div class="kicker">SABLE STUDIO</div>
+        <h3 style="margin-top:10px; font-family: var(--serif);">Brand systems + web presence for premium service businesses.</h3>
+        <small>Minimal, modern, credibility-first. Built to look expensive. Built to convert.</small>
+        <small style="margin-top:16px;">© <span id="y"></span> Sable Studio. All rights reserved.</small>
+      </div>
+      <div class="footerLinks">
+        <a href="/services.html">Services</a>
+        <a href="/work.html">Work</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/privacy.html">Privacy</a>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+</script>
+<script src="/assets/script.js" defer></script>
+
+</body>
+</html>
